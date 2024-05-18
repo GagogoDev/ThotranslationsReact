@@ -1,0 +1,11 @@
+{
+    "navbar": {
+        "home": "INICIO",
+        "about_us": "NOSOTROS",
+        "services": "SERVICIOS",
+        "process": "PROCESO",
+        "contact": "CONTACTO",
+        "language": "ESPAÑOL",
+        "test": "/icons/language/Spanish-icon.png"
+    }
+}
