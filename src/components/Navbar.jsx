@@ -8,6 +8,7 @@ import LogoSimple from '/icons/Logo-simple.png';
 import { useTranslation } from 'react-i18next';
 
 export const Navbar = () => {
+    // Translations
     const [ language, setlanguage ] = useState( 'es' );
     const [ t, i18n ] = useTranslation( "global" );
 
@@ -52,7 +53,7 @@ export const Navbar = () => {
                         </li>
                     </ul>
                     <form className="d-flex">
-                        <button className="btn fw-bold text-primary p-0 d-flex align-items-center" type="button" onClick={onChangeLanguage}>
+                        <button className="language-button btn fw-bold text-primary p-0 d-flex align-items-center" type="button" onClick={onChangeLanguage}>
                             <img src={ t( "navbar.test" ) } alt="Imagen" className="language-icon" /> { t( "navbar.language" ) }
                         </button>
                     </form>
