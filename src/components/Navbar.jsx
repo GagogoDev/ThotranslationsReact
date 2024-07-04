@@ -37,24 +37,24 @@ export const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarContent">
                     <ul className="navbar-nav me-auto mb-1 mb-lg-0">
                         <li className="nav-item px-1">
-                            <a className="nav-link fw-bold text-primary" href="#">{ t( "navbar.home" ) }</a>
+                            <a className="nav-link fw-bold text-primary" href="#">{ t( "navbar.inicio" ) }</a>
                         </li>
                         <li className="nav-item px-1">
-                            <a className="nav-link fw-bold text-primary" href="#">{ t( "navbar.about_us" ) }</a>
+                            <a className="nav-link fw-bold text-primary" href="#">{ t( "navbar.nosotros" ) }</a>
                         </li>
                         <li className="nav-item px-1">
-                            <a className="nav-link fw-bold text-primary" href="#">{ t( "navbar.services" ) }</a>
+                            <a className="nav-link fw-bold text-primary" href="#">{ t( "navbar.servicios" ) }</a>
                         </li>
                         <li className="nav-item px-1">
-                            <a className="nav-link fw-bold text-primary" href="#">{ t( "navbar.process" ) }</a>
+                            <a className="nav-link fw-bold text-primary" href="#">{ t( "navbar.proceso" ) }</a>
                         </li>
                         <li className="nav-item px-1">
-                            <a className="nav-link fw-bold text-primary" href="#">{ t( "navbar.contact" ) }</a>
+                            <a className="nav-link fw-bold text-primary" href="#">{ t( "navbar.contacto" ) }</a>
                         </li>
                     </ul>
                     <form className="d-flex">
                         <button className="language-button btn fw-bold text-primary p-0 d-flex align-items-center" type="button" onClick={onChangeLanguage}>
-                            <img src={ t( "navbar.test" ) } alt="Imagen" className="language-icon" /> { t( "navbar.language" ) }
+                            <img src={ t( "navbar.lenguaje_imagen" ) } alt="Imagen" className="language-icon" /> { t( "navbar.lenguaje" ) }
                         </button>
                     </form>
                 </div>

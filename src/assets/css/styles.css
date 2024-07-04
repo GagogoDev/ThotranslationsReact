@@ -53,3 +53,10 @@ body {
 .language-button.active {
     border-color: var(--light);
 }
+
+
+/* Nosotros */
+
+.p-nosotros {
+    font-size: 1.2rem;
+}

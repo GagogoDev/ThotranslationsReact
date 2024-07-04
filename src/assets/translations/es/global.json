@@ -1,11 +1,19 @@
 {
     "navbar": {
-        "home": "INICIO",
-        "about_us": "NOSOTROS",
-        "services": "SERVICIOS",
-        "process": "PROCESO",
-        "contact": "CONTACTO",
-        "language": "ESPAÑOL",
-        "test": "/icons/language/Spanish-icon.png"
+        "inicio": "INICIO",
+        "nosotros": "NOSOTROS",
+        "servicios": "SERVICIOS",
+        "proceso": "PROCESO",
+        "contacto": "CONTACTO",
+        "lenguaje": "ESPAÑOL",
+        "lenguaje_imagen": "/icons/language/Spanish-icon.png"
+    },
+    "nosotros": {
+        "quienes_somos_titulo": "¿Quienes somos?",
+        "quienes_somos_texto": "Somos una empresa de traducción e interpretación que se dedica a ofrecer servicios lingüísticos y traspasar barreras comunicativas y culturales. Nos centramos en ser el puente que facilita la comprensión y la colaboración en un mundo globalizado, donde el factor humano es fundamental.",
+        "nuestro_enfoque_titulo": "Nuestro enfoque",
+        "nuestro_enfoque_texto": "Nuestro enfoque es fomentar el reconocimiento y la valoración del trabajo del traductor y el intérprete en la sociedad, contribuyendo así al desarrollo de un mundo interconectado.",
+        "valores_y_compromisos_titulo": "Valores y compromisos",
+        "valores_y_compromisos_texto": "No tenemos."
     }
 }

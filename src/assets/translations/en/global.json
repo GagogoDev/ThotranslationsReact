@@ -1,11 +1,19 @@
 {
     "navbar": {
-        "home": "HOME",
-        "about_us": "ABOUT US",
-        "services": "SERVICES",
-        "process": "PROCESS",
-        "contact": "CONTACT",
-        "language": "ENGLISH",
-        "test": "/icons/language/Usa-icon.png"
+        "inicio": "HOME",
+        "nosotros": "ABOUT US",
+        "servicios": "SERVICES",
+        "proceso": "PROCESS",
+        "contacto": "CONTACT",
+        "lenguaje": "ENGLISH",
+        "lenguaje_imagen": "/icons/language/Usa-icon.png"
+    },
+    "nosotros": {
+        "quienes_somos_titulo": "Por traducir",
+        "quienes_somos_texto": "Por traducir",
+        "nuestro_enfoque_titulo": "Por traducir",
+        "nuestro_enfoque_texto": "Por traducir",
+        "valores_y_compromisos_titulo": "Por traducir",
+        "valores_y_compromisos_texto": "Por traducir"
     }
 }

@@ -1,7 +1,7 @@
 // React
 import React from 'react';
 
-// Images
+// Gif
 import LoadingSimple from '/loading/Loading-Simple.gif';
 
 export const Loader = () => {

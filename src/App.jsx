@@ -2,8 +2,9 @@
 import { useEffect, useState } from 'react';
 
 // Components
-import { Navbar } from './components/Navbar';
-import { Loader } from './components/Loader';
+import { Navbar, Loader } from './components/';
+
+import { Nosotros } from './components/sections/';
 
 // Styles
 import './assets/css/styles.css';
@@ -21,12 +22,11 @@ function App() {
 
     return (
         <>
-            { loading ? <Loader/> : '' }
+            {loading ? <Loader /> : ''}
             <Navbar />
-            <div className="row m-0 mt-5">
-                <div className="col-12 text-center">
-                    <h1 className="text-primary">Thotranslation</h1>
-                    <h2 className="text-secondary">En construcción</h2>
+            <div className="row d-flex justify-content-center bg-primary text-light m-0">
+                <div className="col-11 col-md-10 align-items-center pt-5">
+                    <Nosotros />
                 </div>
             </div>
         </>
