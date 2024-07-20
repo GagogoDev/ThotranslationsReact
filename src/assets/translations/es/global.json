@@ -15,5 +15,15 @@
         "nuestro_enfoque_texto": "Nuestro enfoque es fomentar el reconocimiento y la valoración del trabajo del traductor y el intérprete en la sociedad, contribuyendo así al desarrollo de un mundo interconectado.",
         "valores_y_compromisos_titulo": "Valores y compromisos",
         "valores_y_compromisos_texto": "No tenemos."
+    },
+    "servicios": {
+        "traduccion_title": "Traducción",
+        "traduccion_desciption": "Brindamos servicios de traducción (inglés<>español) de cualquier tipo de textos en el área que necesites, tales como: traducciones certificadas, traducciones jurídicas, traducciones médicas, traducciones literarias, traducciones de grado, traducciones de imágenes, traducciones audiovisuales, entre otras.",
+        "interpretacion_title": "Interpretación",
+        "interpretacion_desciption": "Brindamos servicios de interpretación (inglés<>español y creole<>español) de cualquier tipo en el área que necesites, tales como: interpretaciones remotas (VRI), interpretaciones de conferencia, interpretaciones simultáneas, interpretaciones consecutivas, interpretaciones telefónicas (OPI), entre otras.",
+        "correccion_y_edicion_title": "Corrección y edición",
+        "correccion_y_edicion_desciption": "Brindamos servicios de corrección, revisión y edición de textos (inglés<>español) de cualquier tipo en el área que necesites, tales como: traducciones hechas con traductores automáticos, traducciones hechas con inteligencia artificial, traducciones con errores, entre otras.",
+        "transcripcion_title": "Transcripción",
+        "transcripcion_desciption": "Brindamos servicios de transcripciones (inglés y español) de cualquier tipo en el área que necesites, tales como: transcripciones de videos educativos, transcripciones de audios, transcripciones para subtítulos, entre otras."
     }
 }

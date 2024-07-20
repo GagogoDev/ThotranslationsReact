@@ -2,6 +2,7 @@
     --primary: #010e66;
     --secondary: #fdbf2e;
     --light: #f0f2f1;
+    --grey: #D9D9D9;
 }
 
 /* Body */
@@ -54,9 +55,41 @@ body {
     border-color: var(--light);
 }
 
-
 /* Nosotros */
 
 .p-nosotros {
     font-size: 1.2rem;
+}
+
+/* Servicios */
+
+.div-servicios {
+    border: 1px solid #D9D9D9;
+    margin-bottom: 10rem;
+    padding: 0 0 0.5rem 0;
+}
+
+.tab-servicios {
+    height: 17rem;
+    max-width: 75%;
+    cursor: pointer;
+    background-color: var(--grey);
+}
+
+.tab-servicios.active {
+    background-color: var(--light);
+}
+
+.tab-servicios img {
+    height: 10rem;
+    max-width: 75%;
+}
+
+.div-precio {
+    border: 1px solid #D9D9D9;
+    padding: 0.3rem 0.3rem;
+}
+
+.div-precio p {
+    margin-bottom: 0;
 }

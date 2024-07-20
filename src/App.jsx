@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 // Components
 import { Navbar, Loader } from './components/';
 
-import { Nosotros } from './components/sections/';
+import { Nosotros, Servicios } from './components/sections/';
 
 // Styles
 import './assets/css/styles.css';
@@ -27,6 +27,11 @@ function App() {
             <div className="row d-flex justify-content-center bg-primary text-light m-0">
                 <div className="col-11 col-md-10 align-items-center pt-5">
                     <Nosotros />
+                </div>
+            </div>
+            <div className="row d-flex justify-content-center bg-light text-primary m-0">
+                <div className="col-11 col-md-10 align-items-center pt-5">
+                    <Servicios />
                 </div>
             </div>
         </>

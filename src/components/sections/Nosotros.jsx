@@ -25,14 +25,14 @@ export const Nosotros = () => {
                     </p>
                 </div>
                 <div className="d-none d-md-block col-md-5 col-lg-4">
-                    <img src={TeamMeeting} alt="" />
+                    <img src={TeamMeeting} alt="TeamMeeting" />
                 </div>
             </div>
 
             {/* Nuestro enfoque */}
             <div className="row d-flex align-items-center text-center mt-4 mt-md-0">
                 <div className="d-none d-md-block col-md-5 col-lg-4">
-                    <img src={TeamBrainstorming} alt="" />
+                    <img src={TeamBrainstorming} alt="TeamBrainstorming" />
                 </div>
                 <div className="col-md-7 col-lg-8 justify-content-center">
                     <h1 className="d-block mb-4">
@@ -55,7 +55,7 @@ export const Nosotros = () => {
                     </p>
                 </div>
                 <div className="d-none d-md-block col-md-5 col-lg-4">
-                    <img src={Handshake} alt="" />
+                    <img src={Handshake} alt="Handshake" />
                 </div>
             </div>
         </>

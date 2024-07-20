@@ -15,5 +15,15 @@
         "nuestro_enfoque_texto": "Por traducir",
         "valores_y_compromisos_titulo": "Por traducir",
         "valores_y_compromisos_texto": "Por traducir"
+    },
+    "servicios": {
+        "traduccion_title": "Por traducir",
+        "traduccion_desciption": "Por traducir",
+        "interpretacion_title": "Por traducir",
+        "interpretacion_desciption": "Por traducir",
+        "correccion_y_edicion_title": "Por traducir",
+        "correccion_y_edicion_desciption": "Por traducir",
+        "transcripcion_title": "Por traducir",
+        "transcripcion_desciption": "Por traducir"
     }
 }
