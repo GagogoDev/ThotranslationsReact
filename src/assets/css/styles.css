@@ -248,3 +248,53 @@ body {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
 }
+
+/* Contacto */
+
+.contacto-title {
+    font-weight: 700;
+}
+
+.form-control {
+    border-color: gray;
+    background-color: #e6e6e6;
+}
+
+select {
+    border-radius: 0.3rem;
+    background-color: #e6e6e6;
+    color: black;
+    padding: 0.5rem;
+    width: 100%;
+    outline: none;
+}
+
+.button-presupuesto {
+    padding: 0.5rem;
+    border: 1px solid var(--primary);
+    /* border-color: white; */
+    border-radius: 25px;
+    color: black;
+    background-color: hsla(210, 23%, 72%, 0.3);
+    cursor: pointer;
+}
+
+.button-presupuesto:hover {
+    padding: 0.5rem;
+    border: 1px solid var(--primary);
+    /* border-color: white; */
+    border-radius: 25px;
+    color: black;
+    background-color: hsla(210, 23%, 72%, 0.5);
+    cursor: pointer;
+}
+
+button.swal2-confirm.swal2-styled {
+    background-color: var(--secundary);
+    color: var(--primary);
+}
+
+h2#swal2-title,
+div#swal2-html-container {
+    color: var(--primary);
+}
