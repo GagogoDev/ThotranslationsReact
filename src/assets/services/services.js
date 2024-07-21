@@ -41,7 +41,23 @@ export const services = [
         precios: [
             {
                 precio: '$35',
+                title: 'Por palabra traducida',
+                detail: 'Bilingüe',
+            },
+            {
+                precio: '$10.000',
+                title: 'Por hoja',
+                detail: 'Bilingüe',
+            },
+            {
+                precio: '$30',
                 title: 'Por palabra',
+                detail: 'Monolingüe',
+            },
+            {
+                precio: '$7.000',
+                title: 'Por hoja',
+                detail: 'Monolingüe',
             },
         ],
     },
@@ -53,8 +69,18 @@ export const services = [
         precios: [
             {
                 precio: '$490',
-                title: 'Hablantes por minuto',
-                detail: '(1-2)',
+                title: 'Por minuto',
+                detail: '1 a 2 hablantes',
+            },
+            {
+                precio: '$600',
+                title: 'Por minuto',
+                detail: '3 a 6 hablantes',
+            },
+            {
+                precio: '$730',
+                title: 'Por minuto',
+                detail: '+7 hablantes',
             },
         ],
     },
