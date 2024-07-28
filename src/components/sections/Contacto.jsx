@@ -1,6 +1,9 @@
 // React
 import React, { useState } from 'react';
 
+// Axios
+import axios from 'axios';
+
 // SweetAlert2
 import Swal from 'sweetalert2';
 
@@ -86,40 +89,41 @@ export const Contacto = () => {
         let data = {};
         setIsLoading(true);
         try {
-            // const axiosConfig = {
-            //     url: '/email/sendEmailThotranslations',
-            //     baseURL: 'https://api-utilities.gabrielquirozdev.com/api',
-            //     // baseURL: 'http://127.0.0.1:8000/api',
-            //     method: 'post',
-            //     headers: {
-            //         Accept: 'application/json',
-            //         'Content-Type': 'application/json',
-            //         'Access-Control-Allow-Origin': '*',
-            //         'Access-Control-Allow-Headers': '*',
-            //         'X-Requested-With': 'XMLHttpRequest',
-            //     },
-            //     data: { nombre, correo, telefono, servicio, mensaje },
-            // };
-            // data = await axios.request(axiosConfig);
+            const axiosConfig = {
+                url: '/email/sendEmailThotranslations',
+                baseURL: 'https://api-utilities.gabrielquirozdev.com/api',
+                // baseURL: 'http://127.0.0.1:8000/api',
+                method: 'post',
+                headers: {
+                    Accept: 'application/json',
+                    'Content-Type': 'application/json',
+                    'Access-Control-Allow-Origin': '*',
+                    'Access-Control-Allow-Headers': '*',
+                    'X-Requested-With': 'XMLHttpRequest',
+                },
+                data: { nombre, correo, telefono, servicio, mensaje },
+            };
+            data = await axios.request(axiosConfig);
+            console.log( data );
         } catch (error) {
-            // if (parseInt(error.response.status) == 429) {
-            //     fireSwalError('Demasiadas solicitudes, espere un tiempo');
-            //     return false;
-            // }
+            if (parseInt(error?.response?.status) == 429) {
+                fireSwalError('Demasiadas solicitudes, espere un tiempo');
+                return false;
+            }
         } finally {
             onResetForm();
             setIsLoading(false);
         }
 
-        // if (parseInt(data.status) !== 200) {
-        //     fireSwalError();
-        //     return false;
-        // }
+        if (parseInt(data?.status) !== 200) {
+            fireSwalError();
+            return false;
+        }
 
-        // if (parseInt(data.data.status) !== 1) {
-        //     fireSwalError();
-        //     return false;
-        // }
+        if (parseInt(data?.data?.status) !== 1) {
+            fireSwalError();
+            return false;
+        }
 
         fireSwalSuccess();
     };
