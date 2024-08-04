@@ -91,7 +91,7 @@ export const Contacto = () => {
         try {
             const axiosConfig = {
                 url: '/email/sendEmailThotranslations',
-                baseURL: 'https://api-utilities.gabrielquirozdev.com/api',
+                baseURL: 'https://www.gabrielquirozdev.com/api',
                 // baseURL: 'http://127.0.0.1:8000/api',
                 method: 'post',
                 headers: {
@@ -104,7 +104,6 @@ export const Contacto = () => {
                 data: { nombre, correo, telefono, servicio, mensaje },
             };
             data = await axios.request(axiosConfig);
-            console.log( data );
         } catch (error) {
             if (parseInt(error?.response?.status) == 429) {
                 fireSwalError('Demasiadas solicitudes, espere un tiempo');
