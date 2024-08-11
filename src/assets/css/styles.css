@@ -15,6 +15,43 @@ body {
     background-color: var(--light);
 }
 
+/* Portada */
+.portada {
+    height: 7rem;
+}
+
+/* SM */
+@media screen and (width >= 576px) {
+    .portada {
+        height: 12rem;
+    }
+}
+
+/* LG */
+@media screen and (width >= 992px) {
+    .portada {
+        height: 20rem;
+    }
+}
+
+/* XL */
+@media screen and (width >= 1200px) {
+    .portada {
+        height: 30rem;
+    }
+}
+
+/* XXL */
+@media screen and (width >= 1400px) {
+    .portada {
+        height: 30rem;
+    }
+}
+
+.portada .logo-thotranslations {
+    width: 100%;
+}
+
 /* Loader */
 .loader {
     height: 100vh;

@@ -3,8 +3,17 @@ import { useEffect, useState } from 'react';
 
 // Components
 import { Loader } from './components/';
+import {
+    Navbar,
+    Nosotros,
+    Servicios,
+    Proceso,
+    Contacto,
+    Footer,
+} from './components/sections/';
 
-import { Navbar, Nosotros, Servicios, Proceso, Contacto, Footer } from './components/sections/';
+// Images
+import LogoCompleto from '/LogoCompleto.png';
 
 // Styles
 import './assets/css/styles.css';
@@ -24,6 +33,11 @@ function App() {
         <>
             {loading ? <Loader /> : ''}
             <Navbar />
+            <div className="row d-flex justify-content-center align-items-center portada m-0">
+                <div className="col-12">
+                    <img src={LogoCompleto} alt="LogoCompleto" className='logo-thotranslations' />
+                </div>
+            </div>
             <div className="row d-flex justify-content-center bg-primary text-light m-0">
                 <div className="col-11 col-md-10 align-items-center pt-5">
                     <Nosotros />
