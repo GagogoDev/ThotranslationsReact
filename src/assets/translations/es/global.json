@@ -24,6 +24,38 @@
         "correccion_y_edicion_title": "Corrección y edición",
         "correccion_y_edicion_desciption": "Brindamos servicios de corrección, revisión y edición de textos (inglés<>español) de cualquier tipo en el área que necesites, tales como: traducciones hechas con traductores automáticos, traducciones hechas con inteligencia artificial, traducciones con errores, entre otras.",
         "transcripcion_title": "Transcripción",
-        "transcripcion_desciption": "Brindamos servicios de transcripciones (inglés y español) de cualquier tipo en el área que necesites, tales como: transcripciones de videos educativos, transcripciones de audios, transcripciones para subtítulos, entre otras."
+        "transcripcion_desciption": "Brindamos servicios de transcripciones (inglés y español) de cualquier tipo en el área que necesites, tales como: transcripciones de videos educativos, transcripciones de audios, transcripciones para subtítulos, entre otras.",
+        "precios_1": {
+            "traduccion_title_1": "Por palabra",
+            "traduccion_detail_1": "Inglés -> español",
+            "traduccion_title_2": "Por palabra",
+            "traduccion_detail_2": "Español -> inglés"
+        },
+        "precios_2": {
+            "interpretacion_title_1": "Media jornada",
+            "interpretacion_detail_1": "",
+            "interpretacion_title_2": "Jornada completa",
+            "interpretacion_detail_2": ""
+        },
+        "precios_3": {
+            "correccion_y_edicion_title_1": "Por palabra traducida",
+            "correccion_y_edicion_detail_1": "Bilingüe",
+            "correccion_y_edicion_title_2": "Por hoja",
+            "correccion_y_edicion_detail_2": "Bilingüe",
+            "correccion_y_edicion_title_3": "Por palabra",
+            "correccion_y_edicion_detail_3": "Monolingüe",
+            "correccion_y_edicion_title_4": "Por hoja",
+            "correccion_y_edicion_detail_4": "Monolingüe"
+        },
+        "precios_4": {
+            "interpretacion_title_1": "Por minuto",
+            "interpretacion_detail_1": "1 a 2 hablantes",
+            "interpretacion_title_2": "Por minuto",
+            "interpretacion_detail_2": "3 a 6 hablantes",
+            "interpretacion_title_3": "Por minuto",
+            "interpretacion_detail_3": "+7 hablantes"
+        },
+        "cotizar": "COTIZAR",
+        "descuento": "¡DESCUENTO POR PRIMER CLIENTE!"
     }
 }

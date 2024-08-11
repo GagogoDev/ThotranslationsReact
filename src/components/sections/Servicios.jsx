@@ -98,17 +98,17 @@ export const Servicios = () => {
                                             >
                                                 <div className="row d-flex align-items-end justify-content-center">
                                                     <div className="col-12">
-                                                        <h5>{title}</h5>
+                                                        <h5>{t(`servicios.precios_${activeTab}.${title}`)}</h5>
                                                     </div>
                                                     <div className="col-12">
                                                         <h4>{precio}</h4>
                                                     </div>
                                                     <div className="col-12">
-                                                        <p>{detail}</p>
+                                                        <p>{t(`servicios.precios_${activeTab}.${detail}`)}</p>
                                                     </div>
                                                     <div className="col-12 mt-1">
                                                         <button className="btn btn-secondary w-75">
-                                                            COTIZAR
+                                                            {t(`servicios.cotizar`)}
                                                         </button>
                                                     </div>
                                                 </div>
@@ -121,7 +121,7 @@ export const Servicios = () => {
                         <div className="col-12 d-flex justify-content-center mt-3">
                             <div className="row div-descuento bg-secondary d-flex justify-content-center align-items-center">
                                 <div className="col-12 col-sm-11">
-                                    <p>¡DESCUENTO POR PRIMER CLIENTE!</p>
+                                    <p>{t(`servicios.descuento`)}</p>
                                 </div>
                                 <div className="col-12 col-sm-1">
                                     <img src={Discount} alt="Discount" />

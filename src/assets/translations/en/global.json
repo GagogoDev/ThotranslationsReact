@@ -24,6 +24,38 @@
         "correccion_y_edicion_title": "Por traducir",
         "correccion_y_edicion_desciption": "Por traducir",
         "transcripcion_title": "Por traducir",
-        "transcripcion_desciption": "Por traducir"
+        "transcripcion_desciption": "Por traducir",
+        "precios_1": {
+            "traduccion_title_1": "Por traducir",
+            "traduccion_detail_1": "Por traducir",
+            "traduccion_title_2": "Por traducir",
+            "traduccion_detail_2": "Por traducir"
+        },
+        "precios_2": {
+            "interpretacion_title_1": "Por traducir",
+            "interpretacion_detail_1": "Por traducir",
+            "interpretacion_title_2": "Por traducir",
+            "interpretacion_detail_2": "Por traducir"
+        },
+        "precios_3": {
+            "correccion_y_edicion_title_1": "Por traducir",
+            "correccion_y_edicion_detail_1": "Por traducir",
+            "correccion_y_edicion_title_2": "Por traducir",
+            "correccion_y_edicion_detail_2": "Por traducir",
+            "correccion_y_edicion_title_3": "Por traducir",
+            "correccion_y_edicion_detail_3": "Por traducir",
+            "correccion_y_edicion_title_4": "Por traducir",
+            "correccion_y_edicion_detail_4": "Por traducir"
+        },
+        "precios_4": {
+            "interpretacion_title_1": "Por traducir",
+            "interpretacion_detail_1": "Por traducir",
+            "interpretacion_title_2": "Por traducir",
+            "interpretacion_detail_2": "Por traducir",
+            "interpretacion_title_3": "Por traducir",
+            "interpretacion_detail_3": "Por traducir"
+        },
+        "cotizar": "POR TRADUCIR",
+        "descuento": "POR TRADUCIR!"
     }
 }

@@ -7,13 +7,13 @@ export const services = [
         precios: [
             {
                 precio: '$40',
-                title: 'Por palabra',
-                detail: 'Inglés -> español',
+                title: 'traduccion_title_1',
+                detail: 'traduccion_detail_1',
             },
             {
                 precio: '$45',
-                title: 'Por palabra',
-                detail: 'Español -> inglés',
+                title: 'traduccion_title_2',
+                detail: 'traduccion_detail_2',
             },
         ],
     },
@@ -25,11 +25,13 @@ export const services = [
         precios: [
             {
                 precio: '6 UF',
-                title: 'Media jornada',
+                title: 'interpretacion_title_1',
+                detail: 'interpretacion_detail_1',
             },
             {
                 precio: '10 UF',
-                title: 'Jornada completa',
+                title: 'interpretacion_title_2',
+                detail: 'interpretacion_detail_2',
             },
         ],
     },
@@ -41,23 +43,23 @@ export const services = [
         precios: [
             {
                 precio: '$35',
-                title: 'Por palabra traducida',
-                detail: 'Bilingüe',
+                title: 'correccion_y_edicion_title_1',
+                detail: 'correccion_y_edicion_detail_1',
             },
             {
                 precio: '$10.000',
-                title: 'Por hoja',
-                detail: 'Bilingüe',
+                title: 'correccion_y_edicion_title_2',
+                detail: 'correccion_y_edicion_detail_2',
             },
             {
                 precio: '$30',
-                title: 'Por palabra',
-                detail: 'Monolingüe',
+                title: 'correccion_y_edicion_title_3',
+                detail: 'correccion_y_edicion_detail_3',
             },
             {
                 precio: '$7.000',
-                title: 'Por hoja',
-                detail: 'Monolingüe',
+                title: 'correccion_y_edicion_title_4',
+                detail: 'correccion_y_edicion_detail_4',
             },
         ],
     },
@@ -69,18 +71,18 @@ export const services = [
         precios: [
             {
                 precio: '$490',
-                title: 'Por minuto',
-                detail: '1 a 2 hablantes',
+                title: 'interpretacion_title_1',
+                detail: 'interpretacion_detail_1',
             },
             {
                 precio: '$600',
-                title: 'Por minuto',
-                detail: '3 a 6 hablantes',
+                title: 'interpretacion_title_2',
+                detail: 'interpretacion_detail_2',
             },
             {
                 precio: '$730',
-                title: 'Por minuto',
-                detail: '+7 hablantes',
+                title: 'interpretacion_title_3',
+                detail: 'interpretacion_detail_3',
             },
         ],
     },
