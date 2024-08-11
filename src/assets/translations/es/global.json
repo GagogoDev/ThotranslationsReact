@@ -71,6 +71,19 @@
         "descripcion_4": "Te entregamos tu servicio."
     },
     "contacto": {
-        "titulo": "NUESTRO PROCESO"
+        "titulo": "CONTACTA CON NOSOTROS",
+        "nombre": "Nombre",
+        "correo": "Correo",
+        "telefono": "Teléfono",
+        "servicio": "Servicio",
+        "mensaje": "Mensaje",
+        "alternativa_1": "Traducción",
+        "alternativa_2": "Interpretación",
+        "enviar": "ENVIAR",
+        "mensaje_enviado": "Mensaje enviado",
+        "mensaje_enviado_text": "¿A dónde? A tu corazón <3",
+        "mensaje_no_enviado": "Mensaje no enviado",
+        "mensaje_no_enviado_text_default": "Ocurrió un problema inesperado, intente nuevamente más tarde",
+        "mensaje_no_enviado_text_solicitudes": "Demasiadas solicitudes, espere un tiempo"
     }
 }

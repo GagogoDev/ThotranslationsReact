@@ -69,5 +69,21 @@
         "descripcion_3": "Por traducir",
         "title_4": "Por traducir",
         "descripcion_4": "Por traducir"
+    },
+    "contacto": {
+        "titulo": "POR TRADUCIR",
+        "nombre": "Por traducir",
+        "correo": "Por traducir",
+        "telefono": "Por traducir",
+        "servicio": "Por traducir",
+        "mensaje": "Por traducir",
+        "alternativa_1": "Por traducir",
+        "alternativa_2": "Por traducir",
+        "enviar": "POR TRADUCIR",
+        "mensaje_enviado": "Por traducir",
+        "mensaje_enviado_text": "Por traducir",
+        "mensaje_no_enviado": "Por traducir",
+        "mensaje_no_enviado_text_default": "Por traducir",
+        "mensaje_no_enviado_text_solicitudes": "Por traducir"
     }
 }

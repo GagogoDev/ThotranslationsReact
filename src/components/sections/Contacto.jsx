@@ -25,9 +25,9 @@ const initialForm = {
     mensaje: '',
 };
 
-const fireSwalSuccess = () => {
+const fireSwalSuccess = (title, text) => {
     Swal.fire({
-        title: 'Mensaje enviado',
+        title,
         iconHtml: `<img class='swal-custom-icon' src="${LogoSimple}">`,
         customClass: {
             icon: 'no-border',
@@ -36,16 +36,17 @@ const fireSwalSuccess = () => {
             confirmButton: 'swal-custum-button',
         },
         background: '#f0f2f1',
-        text: '¿A dónde? A tu corazón <3',
+        text,
         icon: 'success',
     });
 };
 
 const fireSwalError = (
-    mensaje = 'Ocurrió un problema inesperado, intente nuevamente más tarde'
+    title,
+    text,
 ) => {
     Swal.fire({
-        title: 'Mensaje no enviado',
+        title,
         iconHtml: `<img class='swal-custom-icon' src="${LogoSimple}">`,
         customClass: {
             icon: 'no-border',
@@ -54,7 +55,7 @@ const fireSwalError = (
             confirmButton: 'swal-custum-button',
         },
         background: '#f0f2f1',
-        text: mensaje,
+        text,
         icon: 'success',
     });
 };
@@ -109,7 +110,7 @@ export const Contacto = () => {
             data = await axios.request(axiosConfig);
         } catch (error) {
             if (parseInt(error?.response?.status) == 429) {
-                fireSwalError('Demasiadas solicitudes, espere un tiempo');
+                fireSwalError(t('contacto.mensaje_no_enviado'), t('contacto.mensaje_no_enviado_text_solicitudes'));
                 return false;
             }
         } finally {
@@ -118,16 +119,16 @@ export const Contacto = () => {
         }
 
         if (parseInt(data?.status) !== 200) {
-            fireSwalError();
+            fireSwalError(t('contacto.mensaje_no_enviado'), t('contacto.mensaje_no_enviado_text_default'));
             return false;
         }
 
         if (parseInt(data?.data?.status) !== 1) {
-            fireSwalError();
+            fireSwalError(t('contacto.mensaje_no_enviado'), t('contacto.mensaje_no_enviado_text_default'));
             return false;
         }
 
-        fireSwalSuccess();
+        fireSwalSuccess(t('contacto.mensaje_enviado'), t('contacto.mensaje_enviado_text'));
     };
 
     const { nombre, correo, telefono, servicio, mensaje } = formState;
@@ -137,12 +138,12 @@ export const Contacto = () => {
             <span className="sr-only"></span>
         </div>
     ) : (
-        'ENVIAR'
+        t('contacto.enviar')
     );
     return (
         <>
             <h1 className="text-center mb-3 contacto-title">
-                CONTACTA CON NOSOTROS
+                {t('contacto.titulo')}
             </h1>
             <div className="row d-flex justify-content-center align-items-center mb-5">
                 <div className="col-12 col-md-6">
@@ -150,7 +151,9 @@ export const Contacto = () => {
                         <div className="row">
                             <div className="col-12 mb-3">
                                 <div className="form-group">
-                                    <label htmlFor="nombre">Nombre</label>
+                                    <label htmlFor="nombre">
+                                        {t('contacto.nombre')}
+                                    </label>
                                     <input
                                         className="form-control"
                                         id="nombre"
@@ -164,7 +167,9 @@ export const Contacto = () => {
                             </div>
                             <div className="col-12 mb-3">
                                 <div className="form-group">
-                                    <label htmlFor="correo">Correo</label>
+                                    <label htmlFor="correo">
+                                        {t('contacto.correo')}
+                                    </label>
                                     <input
                                         className="form-control"
                                         id="correo"
@@ -179,7 +184,9 @@ export const Contacto = () => {
                             </div>
                             <div className="col-12 mb-3">
                                 <div className="form-group">
-                                    <label htmlFor="telefono">Teléfono</label>
+                                    <label htmlFor="telefono">
+                                        {t('contacto.telefono')}
+                                    </label>
                                     <input
                                         className="form-control"
                                         id="telefono"
@@ -193,7 +200,9 @@ export const Contacto = () => {
                             </div>
                             <div className="col-12 mb-3">
                                 <div className="form-group">
-                                    <label htmlFor="servicio">Servicio</label>
+                                    <label htmlFor="servicio">
+                                        {t('contacto.servicio')}
+                                    </label>
                                     <br />
                                     <select
                                         id="servicio"
@@ -202,16 +211,20 @@ export const Contacto = () => {
                                         value={servicio}
                                         required
                                     >
-                                        <option value="1">Traducción</option>
+                                        <option value="1">
+                                            {t('contacto.alternativa_1')}
+                                        </option>
                                         <option value="2">
-                                            Interpretación
+                                            {t('contacto.alternativa_2')}
                                         </option>
                                     </select>
                                 </div>
                             </div>
                             <div className="col-12 mb-3">
                                 <div className="form-group">
-                                    <label htmlFor="mensaje">Mensaje</label>
+                                    <label htmlFor="mensaje">
+                                        {t('contacto.mensaje')}
+                                    </label>
                                     <textarea
                                         className="form-control"
                                         id="mensaje"
