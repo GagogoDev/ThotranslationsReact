@@ -18,43 +18,30 @@ export const Servicios = () => {
 
     const [activeTab, setActiveTab] = useState(1);
 
-    const [colSmServicio, setColSmServicio] = useState(12);
-    const [colSmPrecio, setColSmPrecio] = useState(5);
-
-    const [colLgServicio, setColLgServicio] = useState(5);
-    const [colLgPrecio, setColLgPrecio] = useState(3);
-
-    const [classServicioCorreccionEdicion, setClassServicioCorreccionEdicion] = useState('');
+    const [classServicio, setClassServicio] = useState('servicio-traduccion');
+    const [classTextServicio, setClassTextServicio] = useState(
+        'text-servicio-traduccion'
+    );
 
     const onClickTab = (tab) => {
         setActiveTab(tab);
 
         switch (tab) {
             case 1: // Traducción
+                setClassServicio('servicio-traduccion');
+                setClassTextServicio('text-servicio-traduccion');
+                break;
             case 2: // Interpretación
-                setColSmServicio(12);
-                setColSmPrecio(5);
-
-                setColLgServicio(5);
-                setColLgPrecio(3);
+                setClassServicio('servicio-interpretacion');
+                setClassTextServicio('text-servicio-interpretacion');
                 break;
             case 3: // Corrección y edición
-                setColSmServicio(12);
-                setColSmPrecio(5);
-
-                setColLgServicio(12);
-                setColLgPrecio(2);
-
-                setClassServicioCorreccionEdicion('servicio-correccion-edicion');
+                setClassServicio('servicio-correccion-edicion');
+                setClassTextServicio('text-servicio-correccion-edicion');
                 break;
             case 4: // Transcripción
-                setColSmServicio(12);
-                setColSmPrecio(3);
-
-                setColLgServicio(3);
-                setColLgPrecio(2);
-
-                // setClassServicioCorreccionEdicion('servicio-transcripcion');
+                setClassServicio('servicio-transcripcion');
+                setClassTextServicio('text-servicio-transcripcion');
                 break;
             default:
                 break;
@@ -71,16 +58,16 @@ export const Servicios = () => {
                     return (
                         <div
                             key={id}
-                            className={`col-6 col-lg-3 d-flex tab-servicios ${
+                            className={`col-6 col-lg-3 d-flex tab-servicios justify-content-center ${
                                 activeTab == id ? 'active' : ''
                             }`}
                             onClick={(e) => onClickTab(id)}
                         >
                             <div className="row d-flex">
-                                <div className="col-12 d-flex justify-content-center align-self-start mt-3">
-                                    <img src={image} alt="Typewriter" />
+                                <div className="col-12 d-flex justify-content-center align-self-start mt-4">
+                                    <img src={image} alt={title} />
                                 </div>
-                                <div className="col-12 d-flex justify-content-center align-items-end mb-3">
+                                <div className="col-12 d-flex justify-content-center align-items-end mb-2 mb-xl-3">
                                     <h2 className="mt-2">
                                         {t(`servicios.${title}`)}
                                     </h2>
@@ -91,9 +78,7 @@ export const Servicios = () => {
                 })}
                 <div className="col-12 mt-3">
                     <div className="row d-flex align-items-center justify-content-around">
-                        <div
-                            className={`col-11 col-sm-${colSmServicio} col-lg-${colLgServicio}`}
-                        >
+                        <div className={`${classTextServicio}`}>
                             <p>
                                 {services.map(({ id, description }) => {
                                     if (id == activeTab) {
@@ -109,9 +94,9 @@ export const Servicios = () => {
                                         return (
                                             <div
                                                 key={index}
-                                                className={`d-flex col-11 col-sm-${colSmPrecio} col-lg-${colLgPrecio} ${classServicioCorreccionEdicion} div-precio mt-2 mt-lg-0`}
+                                                className={`d-flex justify-content-center ${classServicio} div-precio w-100 mt-2 mt-xl-0`}
                                             >
-                                                <div className="row d-flex align-items-end">
+                                                <div className="row d-flex align-items-end justify-content-center">
                                                     <div className="col-12">
                                                         <h5>{title}</h5>
                                                     </div>

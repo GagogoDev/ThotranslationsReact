@@ -12,7 +12,7 @@
 }
 
 .tab-servicios {
-    height: 17rem;
+    height: 12rem;
     max-width: 75%;
     cursor: pointer;
     background-color: var(--grey);
@@ -23,8 +23,98 @@
 }
 
 .tab-servicios img {
-    height: 10rem;
+    max-height: 5rem;
     max-width: 75%;
+}
+
+.servicio-traduccion,
+.servicio-interpretacion,
+.servicio-correccion-edicion,
+.servicio-transcripcion {
+    flex: auto;
+    width: 100%;
+}
+
+/* SM */
+@media screen and (width >= 576px) {
+    /* Servicio - Traducción */
+    .servicio-traduccion {
+        max-width: 45%;
+    }
+
+    /* Servicio - Interpretación */
+    .servicio-interpretacion {
+        max-width: 45%;
+    }
+
+    /* Servicio - Corrección y edición */
+    .servicio-correccion-edicion {
+        max-width: 45%;
+    }
+
+    /* Servicio - Transcripción */
+    .servicio-transcripcion {
+        max-width: 32%;
+    }
+}
+
+/* LG */
+@media screen and (width >= 992px) {
+    /* Servicio - Traducción */
+    .text-servicio-traduccion {
+        max-width: 35%;
+    }
+
+    .servicio-traduccion {
+        max-width: 30%;
+    }
+
+    /* Servicio - Interpretación */
+    .text-servicio-interpretacion {
+        max-width: 35%;
+    }
+
+    .servicio-interpretacion {
+        max-width: 30%;
+    }
+
+    /* Servicio - Corrección y edición */
+    .servicio-correccion-edicion {
+        max-width: 45%;
+    }
+}
+
+/* XL */
+@media screen and (width >= 1200px) {
+    /* Servicio - Corrección y edición */
+    .text-servicio-correccion-edicion {
+        max-width: 100%;
+    }
+
+    .servicio-correccion-edicion {
+        max-width: 24%;
+    }
+
+    /* Servicio - Transcripción */
+    .text-servicio-transcripcion {
+        max-width: 30%;
+    }
+
+    .servicio-transcripcion {
+        max-width: 20%;
+    }
+}
+
+/* XXL */
+@media screen and (width >= 1400px) {
+    /* Servicio - Corrección y edición */
+    .text-servicio-correccion-edicion {
+        max-width: 25%;
+    }
+
+    .servicio-correccion-edicion {
+        max-width: 18%;
+    }
 }
 
 .div-precio {
@@ -38,36 +128,12 @@
     margin: 0;
 }
 
+/* LG */
 @media screen and (width >= 992px) {
     .div-precio h4,
     .div-precio h5,
     .div-precio p {
         margin-bottom: 0.5rem;
-    }
-}
-
-.servicio-correccion-edicion {
-    min-width: none;
-    min-height: none;
-}
-
-@media screen and (width >= 992px) {
-    .servicio-correccion-edicion {
-        min-width: 12rem;
-        min-height: 11rem;
-    }
-}
-
-@media screen and (width >= 1060px) {
-    .servicio-correccion-edicion {
-        min-width: 13rem;
-        min-height: 1rem !important;
-    }
-}
-
-@media screen and (width >= 992px) {
-    .servicio-correccion-edicion {
-        /* min-width: 14rem; */
     }
 }
 
