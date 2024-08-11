@@ -1,0 +1,17 @@
+/* Navbar */
+
+.navbar-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.language-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 0.3rem;
+}
+
+.language-button:first-child:active,
+.language-button.active {
+    border-color: var(--light);
+}

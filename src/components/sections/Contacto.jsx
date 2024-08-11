@@ -11,6 +11,9 @@ import Swal from 'sweetalert2';
 import SendingEmails from '/images/Sending-Emails.svg';
 import LogoSimple from '/icons/Logo-simple.png';
 
+// Styles
+import '../../assets/css/contacto.css';
+
 // Translations
 import { useTranslation } from 'react-i18next';
 

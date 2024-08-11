@@ -6,6 +6,9 @@ import TeamMeeting from '/images/Team-Meeting.svg';
 import TeamBrainstorming from '/images/Team-Brainstorming.svg';
 import Handshake from '/images/Handshake.svg';
 
+// Styles
+import '../../assets/css/nosotros.css';
+
 // Translations
 import { useTranslation } from 'react-i18next';
 

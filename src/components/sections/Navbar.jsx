@@ -4,6 +4,9 @@ import React, { useState } from 'react';
 // Images
 import LogoSimple from '/icons/Logo-simple.png';
 
+// Styles
+import '../../assets/css/navbar.css';
+
 // Translations
 import { useTranslation } from 'react-i18next';
 

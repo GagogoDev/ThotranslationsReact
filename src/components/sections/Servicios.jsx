@@ -4,6 +4,9 @@ import React, { useState } from 'react';
 // Images
 import Discount from '/icons/Discount.png';
 
+// Styles
+import '../../assets/css/servicios.css';
+
 // Translations
 import { useTranslation } from 'react-i18next';
 

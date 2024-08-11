@@ -1,6 +1,9 @@
 // React
 import React from 'react';
 
+// Styles
+import '../../assets/css/proceso.css';
+
 // Translations
 import { useTranslation } from 'react-i18next';
 

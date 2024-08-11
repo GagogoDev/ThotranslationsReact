@@ -1,0 +1,14 @@
+/* Footer */
+
+.footer-icon {
+    max-width: 2rem;
+}
+
+.footer-icon-mail {
+    max-width: 2.5rem !important;
+}
+
+.footer-icon-social {
+    max-width: 1.5rem;
+    margin: 0 0.3rem;
+}

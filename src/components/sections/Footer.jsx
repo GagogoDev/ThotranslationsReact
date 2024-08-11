@@ -8,6 +8,9 @@ import Phone from '/icons/footer/Phone.png';
 import Instagram from '/icons/footer/Instagram.png';
 import TikTok from '/icons/footer/Tik-Tok.png';
 
+// Styles
+import '../../assets/css/footer.css';
+
 // Translations
 import { useTranslation } from 'react-i18next';
 
