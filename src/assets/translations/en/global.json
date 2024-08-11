@@ -85,5 +85,14 @@
         "mensaje_no_enviado": "Por traducir",
         "mensaje_no_enviado_text_default": "Por traducir",
         "mensaje_no_enviado_text_solicitudes": "Por traducir"
+    },
+    "footer": {
+        "direccion": "Por traducir",
+        "direccion_text": "Por traducir",
+        "llamanos": "Por traducir",
+        "llamanos_text": "Por traducir",
+        "escribenos": "Por traducir",
+        "escribenos_text": "Por traducir",
+        "copyright": "Por traducir"
     }
 }

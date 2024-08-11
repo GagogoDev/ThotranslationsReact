@@ -24,18 +24,18 @@ export const Footer = () => {
             <div className="row d-flex justify-content-center align-items-center text-center">
                 <div className="col-6 col-sm-3 text-center">
                     <img src={Home} alt="Home" className="footer-icon mb-1" />
-                    <h5>Dirección</h5>
-                    <p className="p-footer">Mi casita 1039</p>
+                    <h5>{t('footer.direccion')}</h5>
+                    <p className="p-footer">{t('footer.direccion_text')}</p>
                 </div>
                 <div className="col-6 col-sm-3 text-center">
                     <img src={Mail} alt="Mail" className="footer-icon footer-icon-mail" />
-                    <h5>Llámanos</h5>
-                    <p className="p-footer">Chile: +569 1111 1111</p>
+                    <h5>{t('footer.llamanos')}</h5>
+                    <p className="p-footer">{t('footer.llamanos_text')}</p>
                 </div>
                 <div className="col-12 col-sm-3 text-center">
                     <img src={Phone} alt="Phone" className="footer-icon mb-1" />
-                    <h5>Escríbenos</h5>
-                    <p className="p-footer">algo@algo.com</p>
+                    <h5>{t('footer.escribenos')}</h5>
+                    <p className="p-footer">{t('footer.escribenos_text')}</p>
                 </div>
                 <div className="col-12 text-center">
                     <a
@@ -61,8 +61,7 @@ export const Footer = () => {
                 </div>
                 <div className="col-12 text-center mt-3 mb-3">
                     <small>
-                        Copyright © {currentYear} Thotranslations todos los derechos
-                        reservados
+                        Copyright © {currentYear} {t('footer.copyright')}
                     </small>
                 </div>
             </div>

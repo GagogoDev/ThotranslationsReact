@@ -85,5 +85,14 @@
         "mensaje_no_enviado": "Mensaje no enviado",
         "mensaje_no_enviado_text_default": "Ocurrió un problema inesperado, intente nuevamente más tarde",
         "mensaje_no_enviado_text_solicitudes": "Demasiadas solicitudes, espere un tiempo"
+    },
+    "footer": {
+        "direccion": "Dirección",
+        "direccion_text": "Mi casita 1039",
+        "llamanos": "Llámanos",
+        "llamanos_text": "Chile: +569 1111 1111",
+        "escribenos": "Escríbenos",
+        "escribenos_text": "algo@algo.com",
+        "copyright": "Thotranslations todos los derechos reservados"
     }
 }
