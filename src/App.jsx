@@ -2,9 +2,9 @@
 import { useEffect, useState } from 'react';
 
 // Components
-import { Navbar, Loader } from './components/';
+import { Loader } from './components/';
 
-import { Nosotros, Servicios, Proceso, Contacto, Footer } from './components/sections/';
+import { Navbar, Nosotros, Servicios, Proceso, Contacto, Footer } from './components/sections/';
 
 // Styles
 import './assets/css/styles.css';
