@@ -17,6 +17,7 @@
         "valores_y_compromisos_texto": "No tenemos."
     },
     "servicios": {
+        "titulo": "NUESTROS SERVICIOS",
         "traduccion_title": "Traducción",
         "traduccion_desciption": "Brindamos servicios de traducción (inglés<>español) de cualquier tipo de textos en el área que necesites, tales como: traducciones certificadas, traducciones jurídicas, traducciones médicas, traducciones literarias, traducciones de grado, traducciones de imágenes, traducciones audiovisuales, entre otras.",
         "interpretacion_title": "Interpretación",
@@ -57,5 +58,19 @@
         },
         "cotizar": "COTIZAR",
         "descuento": "¡DESCUENTO POR PRIMER CLIENTE!"
+    },
+    "proceso": {
+        "titulo": "NUESTRO PROCESO",
+        "title_1": "Contáctate con nosotros",
+        "descripcion_1": "Envía tu documento o ponte en contacto con nosotros a través de nuestro correo electrónico thotranslations@gmail.com.",
+        "title_2": "Te enviamos tu presupuesto",
+        "descripcion_2": "Responderemos a tu correo electrónico con el presupuesto de tu servicio.",
+        "title_3": "Revisión y confirmación",
+        "descripcion_3": "Una vez aceptado el presupuesto, confirmamos el servicio y las formas de pago.",
+        "title_4": "Servicio",
+        "descripcion_4": "Te entregamos tu servicio."
+    },
+    "contacto": {
+        "titulo": "NUESTRO PROCESO"
     }
 }

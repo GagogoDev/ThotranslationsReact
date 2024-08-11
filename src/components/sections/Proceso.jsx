@@ -12,42 +12,40 @@ export const Proceso = () => {
 
     return (
         <>
-            <h1 className="text-center mb-5 proceso-title">NUESTRO PROCESO</h1>
+            <h1 className="text-center mb-5 proceso-title">
+                {t('proceso.titulo')}
+            </h1>
             <div className="row d-flex justify-content-center align-items-center text-center mb-5">
                 <div className="col-12">
                     <div className="row p-3">
                         <div className="main">
                             <p className="p-timeline" data-aos="fade-up">
                                 <strong className="strong-timeline">
-                                    Contáctate con nosotros
+                                    {t('proceso.title_1')}
                                 </strong>
                                 <br />
-                                Envía tu documento o ponte en contacto con
-                                nosotros a través de nuestro correo electrónico
-                                thotranslations@gmail.com.
+                                {t('proceso.descripcion_1')}
                             </p>
                             <p className="p-timeline" data-aos="fade-up">
                                 <strong className="strong-timeline">
-                                    Te enviamos tu presupuesto
+                                    {t('proceso.title_2')}
                                 </strong>
                                 <br />
-                                Responderemos a tu correo electrónico con el
-                                presupuesto de tu servicio.
+                                {t('proceso.descripcion_2')}
                             </p>
                             <p className="p-timeline" data-aos="fade-up">
                                 <strong className="strong-timeline">
-                                    Revisión y confirmación
+                                    {t('proceso.title_3')}
                                 </strong>
                                 <br />
-                                Una vez aceptado el presupuesto, confirmamos el
-                                servicio y las formas de pago.
+                                {t('proceso.descripcion_3')}
                             </p>
                             <p className="p-timeline" data-aos="fade-up">
                                 <strong className="strong-timeline">
-                                    Servicio
+                                    {t('proceso.title_4')}
                                 </strong>
                                 <br />
-                                Te entregamos tu servicio.
+                                {t('proceso.descripcion_4')}
                             </p>
                         </div>
                     </div>

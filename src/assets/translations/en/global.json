@@ -17,6 +17,7 @@
         "valores_y_compromisos_texto": "Por traducir"
     },
     "servicios": {
+        "titulo": "POR TRADUCIR",
         "traduccion_title": "Por traducir",
         "traduccion_desciption": "Por traducir",
         "interpretacion_title": "Por traducir",
@@ -57,5 +58,16 @@
         },
         "cotizar": "POR TRADUCIR",
         "descuento": "POR TRADUCIR!"
+    },
+    "proceso": {
+        "titulo": "POR TRADUCIR",
+        "title_1": "Por traducir",
+        "descripcion_1": "Por traducir",
+        "title_2": "Por traducir",
+        "descripcion_2": "Por traducir",
+        "title_3": "Por traducir",
+        "descripcion_3": "Por traducir",
+        "title_4": "Por traducir",
+        "descripcion_4": "Por traducir"
     }
 }
