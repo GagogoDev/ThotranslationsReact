@@ -217,6 +217,12 @@ export const Contacto = () => {
                                         <option value="2">
                                             {t('contacto.alternativa_2')}
                                         </option>
+                                        <option value="3">
+                                            {t('contacto.alternativa_3')}
+                                        </option>
+                                        <option value="4">
+                                            {t('contacto.alternativa_4')}
+                                        </option>
                                     </select>
                                 </div>
                             </div>

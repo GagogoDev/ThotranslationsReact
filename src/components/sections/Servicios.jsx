@@ -13,6 +13,9 @@ import { useTranslation } from 'react-i18next';
 // Servicios
 import { services } from '../../assets/services/services';
 
+// React Scroll
+import { Link } from 'react-scroll';
+
 export const Servicios = () => {
     const [t] = useTranslation('global');
 
@@ -107,9 +110,9 @@ export const Servicios = () => {
                                                         <p>{t(`servicios.precios_${activeTab}.${detail}`)}</p>
                                                     </div>
                                                     <div className="col-12 mt-1">
-                                                        <button className="btn btn-secondary w-75">
+                                                        <Link className="btn btn-secondary w-75" to="section-contacto" offset={-60}>
                                                             {t(`servicios.cotizar`)}
-                                                        </button>
+                                                        </Link>
                                                     </div>
                                                 </div>
                                             </div>

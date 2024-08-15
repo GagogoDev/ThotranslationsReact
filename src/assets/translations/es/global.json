@@ -79,6 +79,8 @@
         "mensaje": "Mensaje",
         "alternativa_1": "Traducción",
         "alternativa_2": "Interpretación",
+        "alternativa_3": "Corrección y edición",
+        "alternativa_4": "Transcripción",
         "enviar": "ENVIAR",
         "mensaje_enviado": "Mensaje enviado",
         "mensaje_enviado_text": "¿A dónde? A tu corazón <3",

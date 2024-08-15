@@ -141,7 +141,7 @@
     margin-bottom: 0;
 }
 
-.div-precio button {
+.div-precio .btn {
     font-weight: var(--font-weight-button);
     border-radius: var(--border-radius);
 }
