@@ -18,7 +18,7 @@ export const Nosotros = () => {
     return (
         <>
             {/* Quienes somos */}
-            <div className="row d-flex align-items-center justify-content-center text-center">
+            <div className="row d-flex align-items-center justify-content-center text-center animate__animated animate__fadeInUp">
                 <div className="col-12 col-md-7 col-lg-8 justify-content-center">
                     <h1 className="mb-4">
                         {t('nosotros.quienes_somos_titulo')}
@@ -33,9 +33,9 @@ export const Nosotros = () => {
             </div>
 
             {/* Nuestro enfoque */}
-            <div className="row d-flex align-items-center justify-content-center text-center">
-            <div className="order-1 order-md-0 col-7 col-md-5 col-lg-4">
-            <img src={TeamBrainstorming} alt="TeamBrainstorming" />
+            <div className="row d-flex align-items-center justify-content-center text-center animate__animated animate__fadeInUp">
+                <div className="order-1 order-md-0 col-7 col-md-5 col-lg-4">
+                    <img src={TeamBrainstorming} alt="TeamBrainstorming" />
                 </div>
                 <div className="col-12 col-md-7 col-lg-8 justify-content-center">
                     <h1 className="mb-4">
@@ -48,7 +48,7 @@ export const Nosotros = () => {
             </div>
 
             {/* Valores y compromisos */}
-            <div className="row d-flex align-items-center justify-content-center text-center">
+            <div className="row d-flex align-items-center justify-content-center text-center animate__animated animate__fadeInUp">
                 <div className="col-12 col-md-7 col-lg-8 justify-content-center">
                     <h1 className="mb-4">
                         {t('nosotros.valores_y_compromisos_titulo')}

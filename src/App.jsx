@@ -18,6 +18,9 @@ import LogoCompleto from '/LogoCompleto.png';
 // Styles
 import './assets/css/styles.css';
 
+// Animations
+import 'animate.css';
+
 function App() {
     // Loading
     const [loading, setLoading] = useState(false);
@@ -35,7 +38,7 @@ function App() {
             <Navbar />
             <div className="row d-flex justify-content-center align-items-center portada m-0">
                 <div className="col-12">
-                    <img src={LogoCompleto} alt="LogoCompleto" className='logo-thotranslations' />
+                    <img src={LogoCompleto} alt="LogoCompleto" className='logo-thotranslations animate__animated animate__fadeInUp' />
                 </div>
             </div>
             <div className="row d-flex justify-content-center bg-primary text-light m-0">
