@@ -15,3 +15,7 @@
 .language-button.active {
     border-color: var(--light);
 }
+
+.nav-item {
+    text-decoration: none;
+}
