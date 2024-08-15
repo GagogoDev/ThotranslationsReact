@@ -17,20 +17,14 @@ body {
 
 /* Portada */
 .portada {
-    height: 7rem;
-}
-
-/* SM */
-@media screen and (width >= 576px) {
-    .portada {
-        height: 12rem;
-    }
+    padding-top: 3rem;
+    height: 16rem;
 }
 
 /* LG */
 @media screen and (width >= 992px) {
     .portada {
-        height: 20rem;
+        height: 25rem;
     }
 }
 
