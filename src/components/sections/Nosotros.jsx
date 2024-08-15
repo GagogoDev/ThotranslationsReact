@@ -18,27 +18,27 @@ export const Nosotros = () => {
     return (
         <>
             {/* Quienes somos */}
-            <div className="row d-flex align-items-center text-center">
-                <div className="col-md-7 col-lg-8 justify-content-center">
-                    <h1 className="d-block mb-4">
+            <div className="row d-flex align-items-center justify-content-center text-center">
+                <div className="col-12 col-md-7 col-lg-8 justify-content-center">
+                    <h1 className="mb-4">
                         {t('nosotros.quienes_somos_titulo')}
                     </h1>
                     <p className="p-nosotros">
                         {t('nosotros.quienes_somos_texto')}
                     </p>
                 </div>
-                <div className="d-none d-md-block col-md-5 col-lg-4">
+                <div className="col-7 col-md-5 col-lg-4">
                     <img src={TeamMeeting} alt="TeamMeeting" />
                 </div>
             </div>
 
             {/* Nuestro enfoque */}
-            <div className="row d-flex align-items-center text-center mt-4 mt-md-0">
-                <div className="d-none d-md-block col-md-5 col-lg-4">
-                    <img src={TeamBrainstorming} alt="TeamBrainstorming" />
+            <div className="row d-flex align-items-center justify-content-center text-center">
+            <div className="order-1 order-md-0 col-7 col-md-5 col-lg-4">
+            <img src={TeamBrainstorming} alt="TeamBrainstorming" />
                 </div>
-                <div className="col-md-7 col-lg-8 justify-content-center">
-                    <h1 className="d-block mb-4">
+                <div className="col-12 col-md-7 col-lg-8 justify-content-center">
+                    <h1 className="mb-4">
                         {t('nosotros.nuestro_enfoque_titulo')}
                     </h1>
                     <p className="p-nosotros">
@@ -48,16 +48,16 @@ export const Nosotros = () => {
             </div>
 
             {/* Valores y compromisos */}
-            <div className="row d-flex align-items-center text-center mt-4 mt-md-0">
-                <div className="col-md-7 col-lg-8 justify-content-center">
-                    <h1 className="d-block mb-4">
+            <div className="row d-flex align-items-center justify-content-center text-center">
+                <div className="col-12 col-md-7 col-lg-8 justify-content-center">
+                    <h1 className="mb-4">
                         {t('nosotros.valores_y_compromisos_titulo')}
                     </h1>
                     <p className="p-nosotros">
                         {t('nosotros.valores_y_compromisos_texto')}
                     </p>
                 </div>
-                <div className="d-none d-md-block col-md-5 col-lg-4">
+                <div className="col-7 col-md-5 col-lg-4">
                     <img src={Handshake} alt="Handshake" />
                 </div>
             </div>

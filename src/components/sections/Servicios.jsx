@@ -53,7 +53,7 @@ export const Servicios = () => {
             <h1 className="text-center mb-5 servicios-title">
                 {t(`servicios.titulo`)}
             </h1>
-            <div className="row d-flex justify-content-center align-items-center text-center div-servicios">
+            <div className="row d-flex justify-content-center text-center div-servicios">
                 {services.map(({ id, image, title }) => {
                     return (
                         <div
