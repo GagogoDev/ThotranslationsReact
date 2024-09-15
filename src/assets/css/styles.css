@@ -61,7 +61,7 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    animation: desaparecer 1.5s forwards;
+    animation: desaparecer 2s forwards;
 }
 
 @keyframes desaparecer {

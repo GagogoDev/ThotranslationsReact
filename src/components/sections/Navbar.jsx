@@ -15,23 +15,30 @@ import { Link } from 'react-scroll';
 
 export const Navbar = () => {
     // Translations
-    const [language, setlanguage] = useState('es');
+    const [currentLanguage, setCurrentLanguage] = useState('es');
     const [t, i18n] = useTranslation('global');
 
     const onChangeLanguage = () => {
-        switch (language) {
+        switch (currentLanguage) {
             case 'es':
                 i18n.changeLanguage('en');
-                setlanguage('en');
+                setCurrentLanguage('en');
+                window.localStorage.setItem('language', 'en');
                 break;
             case 'en':
                 i18n.changeLanguage('es');
-                setlanguage('es');
+                setCurrentLanguage('es');
+                window.localStorage.setItem('language', 'es');
                 break;
             default:
                 break;
         }
     };
+
+    useEffect(() => {
+        const languageLocalStorage = window.localStorage.getItem('language');
+        if (languageLocalStorage != currentLanguage) onChangeLanguage();
+    }, []);
 
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
